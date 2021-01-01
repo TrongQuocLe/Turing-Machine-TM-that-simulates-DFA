@@ -43,6 +43,7 @@ For example, F1011 means q0 and q1 are the accepting states of the DFA.
 Note that there may be no final states. But the F will still be there.
 
 
+
 OUTPUT
 
 ![Output](https://github.com/HaiTrieuNg/Turing-Machine-TM-that-simulates-DFA/blob/main/Images/Output.png)
