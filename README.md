@@ -9,13 +9,20 @@ INPUT ENCODING
 ![Input](https://github.com/HaiTrieuNg/Turing-Machine-TM-that-simulates-DFA/blob/main/Images/Input.png)
 
 The input has 3 parts:
+
 • The input string w for the DFA
+
 Each symbol is encoded into a unary number and separated by a 0 (zero).
+
 In this project, the input symbol will be English lowercase letters. 1 is a, 11 is b, 111 is c, etc.
 For example, 10111011 means acb. Note that the input string for the DFA can be λ (this part is empty).
+
 • Transition function δ of the DFA
+
 Each state is encoded into a unary number, so that q0 is 1, q1 is 11, q2 is 111, etc.
+
 Each transition starts with D. And each transition has 3 parts, separated by a 0 (zero):
+
 o Current state: 1, 11, 111, etc. Only one current state per transition;
 o Read condition: same as the encoding for the input: 1 is a, 11 is b, etc. Only one symbol per transition;
 o Next state: 1, 11, 111, etc. Only one next state per transition.
