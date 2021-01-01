@@ -1,8 +1,11 @@
 # Turing-Machine-TM-that-simulates-DFA
+
 Standard Turing Machine (TM) that simulates DFA. The result TM can decide whether the DFA accept or rejects a string.
 The input includes an encoded DFA and an encoded string that needs to be input into the DFA. The TM will be running under transducer mode and output is based on whether the DFA accepts the string or not.
+![Greeting](https://github.com/HaiTrieuNg/Turing-Machine-TM-that-simulates-DFA/blob/master/Images/TM.png)
 
 INPUT ENCODING
+
 The input has 3 parts:
 • The input string w for the DFA
 Each symbol is encoded into a unary number and separated by a 0 (zero).
@@ -23,6 +26,7 @@ Note that there may be no final states. But the F will still be there.
 
 
 OUTPUT
+
 The TM will be running under transducer mode and accept the input, and output a capital letter (A or R):
 • If the DFA accept the string w, the output of your TM should be A;
 • If the DFA reject the string w, the output of your TM should be R.
