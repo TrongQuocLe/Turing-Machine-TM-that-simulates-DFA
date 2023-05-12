@@ -3,6 +3,8 @@
 Standard Turing Machine (TM) that simulates DFA. The result TM can decide whether the DFA accept or rejects a string.
 The input includes an encoded DFA and an encoded string that needs to be input into the DFA. The TM will be running under transducer mode and output is based on whether the DFA accepts the string or not.
 
+![image](https://github.com/TrongQuocLe/Turing-Machine-TM-that-simulates-DFA/blob/main/Images/TM%20simulates%20DFA.png)
+
 ## INPUT ENCODING
 
 The input has 3 parts:
